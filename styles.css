@@ -349,6 +349,29 @@ body {
     font-size: 0.9rem;
 }
 
+.coming-soon {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: #f8f9fa;
+    border-radius: 10px;
+    margin: 2rem auto;
+    max-width: 600px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.coming-soon h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.coming-soon p {
+    font-size: 1.2rem;
+    color: #666;
+    font-weight: 400;
+}
+
 /* Contact Section */
 .contact {
     padding: 8rem 2rem 5rem;
@@ -362,17 +385,18 @@ body {
 }
 
 .contact-container {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 4rem;
-    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    max-width: 600px;
     margin: 0 auto 4rem;
 }
 
 .contact-info {
     background: #f8f9fa;
-    padding: 2rem;
+    padding: 3rem;
     border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    width: 100%;
 }
 
 .info-item {
@@ -395,13 +419,14 @@ body {
 
 .social-links {
     display: flex;
-    gap: 1rem;
+    gap: 1.5rem;
     margin-top: 2rem;
+    justify-content: center;
 }
 
 .social-link {
     color: #333;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     transition: color 0.3s ease;
 }
 
@@ -594,6 +619,36 @@ footer {
 
     .team-logo {
         margin: 0 0 1rem 0;
+    }
+
+    .coming-soon {
+        padding: 3rem 1.5rem;
+        margin: 1rem;
+    }
+
+    .coming-soon h2 {
+        font-size: 2rem;
+    }
+
+    .coming-soon p {
+        font-size: 1.1rem;
+    }
+
+    .contact-info {
+        padding: 2rem;
+        margin: 0 1rem;
+    }
+
+    .info-item {
+        margin-bottom: 1.5rem;
+    }
+
+    .social-links {
+        gap: 1.2rem;
+    }
+
+    .social-link {
+        font-size: 1.6rem;
     }
 }
 
