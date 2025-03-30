@@ -30,7 +30,7 @@ You can customize the colors by modifying the CSS variables in `styles.css`. The
 - Primary color: #007bff
 - Text color: #333
 - Background colors: #fff, #f8f9fa
-
+git remote set-url origin https://dieg00tfb@github.com/dieg00tfb/Gerado-Arreola-WebPortfolio.git
 ### Images
 Replace the placeholder images in the Projects section with your own project screenshots or images.
 
